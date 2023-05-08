@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WebmasterApp</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="select_value">Select Value</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose_time">Select Plc</string>
+    <string name="entry_date">Entry Date</string>
+    <string name="choose_shift">Choose Shift</string>
+    <string name="nav_header_title">username</string>
+    <string name="nav_header_subtitle">usermaild</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="select_dashboard">Select DashBoard</string>
+</resources>

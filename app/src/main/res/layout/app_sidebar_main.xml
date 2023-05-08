@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><!-- The navigation drawer -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent">
+    <!-- Profile Box -->
+
+    <RelativeLayout
+        android:id="@+id/profileBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="start"
+        android:minHeight="80dp"
+        android:padding="8dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/nav_header_main" />
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/profileBox"
+        android:background="@color/light" />
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/left_drawer"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/view"
+        android:layout_gravity="start"
+        android:background="@color/white"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent" />
+
+    <RelativeLayout
+        android:id="@+id/campusLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/editeprofile"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/servilink_logo" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

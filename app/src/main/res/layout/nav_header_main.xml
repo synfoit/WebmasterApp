@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@color/white"
+    android:gravity="bottom"
+    android:id="@+id/nav"
+    android:orientation="horizontal"
+    android:paddingStart="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+   <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/namebackground"
+        android:contentDescription="@string/nav_header_desc"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:text="KP"
+       />
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginBottom="15dp"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunitonans_regular"
+            android:text="@string/nav_header_title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/black" />
+
+        <TextView
+        android:id="@+id/tvemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:fontFamily="@font/nunitonans_regular"
+        android:text="@string/nav_header_subtitle" />
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/drawable/dashbord_back.xml" value="0.127" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.1" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/drawable/ic_baseline_attach_file_24.xml" value="0.1" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/drawable/ic_baseline_calendar_month_24.xml" value="0.1" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/drawable/ic_baseline_chevron_right_24.xml" value="0.1" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/drawable/ic_baseline_dashboard_24.xml" value="0.1" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/drawable/ic_baseline_edit_note_24.xml" value="0.1" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/drawable/ic_baseline_insert_drive_file_24.xml" value="0.1" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/drawable/ic_baseline_logout_24.xml" value="0.1475" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/drawable/ic_baseline_loop_24.xml" value="0.1475" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/drawable/namebackground.xml" value="0.1" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/drawable/profile_circular_border_imageview.xml" value="0.1" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/drawable/rounded_rectangle.xml" value="0.1" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/font/font_family.xml" value="0.11574074074074074" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/layout/activity_main.xml" value="0.16875" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/layout/app_bar_main.xml" value="0.2" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/layout/app_sidebar_main.xml" value="0.1" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/layout/custom_dashboard.xml" value="0.184375" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/layout/custom_devicelist.xml" value="0.16875" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/layout/custom_showdata.xml" value="0.18125" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/layout/customdrawerlayout.xml" value="0.2" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/layout/custome_parameterlist.xml" value="0.17028985507246377" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/layout/home_scree.xml" value="0.10625" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/layout/homescreen.xml" value="0.1693121693121693" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/layout/layout.xml" value="0.2" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/layout/login_screen.xml" value="0.2" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/layout/my_profile.xml" value="0.1" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/layout/nav_header_main.xml" value="0.14583333333333334" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/layout/parameterlist.xml" value="0.1" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/layout/showdatalayout.xml" value="0.2" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/layout/splash_screen.xml" value="0.2" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.184375" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.184375" />
+        <entry key="..\:/StudioProject/WebmasterApp/app/src/main/res/menu/main.xml" value="0.184375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingClass">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/line_chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        app:cardMaxElevation="8dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_layoutname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/nunitonans_regular"
+                    android:textColor="@color/purple_700" />
+
+                <TextView
+                    android:id="@+id/tv_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="|"
+                    android:textColor="@color/purple_700" />
+
+                <TextView
+                    android:id="@+id/tv_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/nunitonans_regular"
+                    android:textColor="@color/purple_700" />
+            </LinearLayout>
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/reportingChart"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:background="@color/white"
+                android:visibility="gone"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/tv_progresstext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/purple_700"
+                android:textSize="20dp"
+                android:visibility="gone" />
+
+            <ProgressBar
+                android:id="@+id/horizontal_progress_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:indeterminate="false"
+                android:max="100"
+                android:maxHeight="50dip"
+                android:minHeight="50dip"
+                android:progressBackgroundTint="@color/purple_700"
+                android:visibility="gone"
+                tools:ignore="MissingConstraints" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/idBarChart"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginBottom="10dp"
+                android:visibility="gone"
+                tools:ignore="MissingConstraints" />
+
+            <com.github.anastr.speedviewlib.SpeedView
+                android:id="@+id/speedView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                app:sv_centerCircleRadius="8dp"
+                app:sv_indicator="NeedleIndicator"
+                app:sv_speedometerWidth="15dp"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
