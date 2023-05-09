@@ -576,7 +576,7 @@ public class ParameterLIst extends AppCompatActivity {
                                             String str = new Gson().toJson(manualDataDetail);
                                             JSONObject jsonObject = jsonParser.getJSONFromUrl(ApiUrl.updateManualFloatdata, str, Comman.getSavedUserData(ParameterLIst.this, Comman.Key_Usertoken));
                                             String message = jsonObject.getString("msg");
-                                            System.out.println("mmmmmmmmmm" + message);
+
                                             /*if (message.equalsIgnoreCase("Manual Float Data is already exist")) {
                                                 stringList.add(devalue[1].trim());
                                             }*/
@@ -594,8 +594,7 @@ public class ParameterLIst extends AppCompatActivity {
                                             String str = new Gson().toJson(manualDataDetail);
                                             JSONObject jsonObject = jsonParser.getJSONFromUrl(ApiUrl.updateManualStringdata, str, Comman.getSavedUserData(ParameterLIst.this, Comman.Key_Usertoken));
                                             String message = jsonObject.getString("msg");
-                                            System.out.println("mmmmmmmmmm" + message);
-                                            System.out.println("mmmmmmmmmm" + message);
+
                                            /* if (message.equalsIgnoreCase("Manual String Data is already exist")) {
                                                 stringList.add(devalue[1].trim());
                                             }*/
@@ -614,7 +613,7 @@ public class ParameterLIst extends AppCompatActivity {
                                             String str = new Gson().toJson(manualDataDetail);
                                             JSONObject jsonObject = jsonParser.getJSONFromUrl(ApiUrl.updateManualStringdata, str, Comman.getSavedUserData(ParameterLIst.this, Comman.Key_Usertoken));
                                             String message = jsonObject.getString("msg");
-                                            System.out.println("mmmmmmmmmm" + message);
+
                                            /* if (message.equalsIgnoreCase("Manual String Data is already exist")) {
                                                 stringList.add(devalue[1].trim());
                                             }*/
@@ -634,7 +633,7 @@ public class ParameterLIst extends AppCompatActivity {
                                             String str = new Gson().toJson(manualDataDetail);
                                             JSONObject jsonObject = jsonParser.getJSONFromUrl(ApiUrl.updateManualStringdata, str, Comman.getSavedUserData(ParameterLIst.this, Comman.Key_Usertoken));
                                             String message = jsonObject.getString("msg");
-                                            System.out.println("mmmmmmmmmm" + message);
+
                                           /*  if (message.equalsIgnoreCase("Manual String Data is already exist")) {
                                                 stringList.add(devalue[1].trim());
                                             }*/
